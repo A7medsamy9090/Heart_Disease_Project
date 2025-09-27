@@ -1,3 +1,0 @@
-Method,Accuracy,Precision,Recall,F1,Best Params
-GridSearchCV,0.8478260869565217,0.8245614035087719,0.9215686274509803,0.8703703703703703,"{'max_depth': 5, 'n_estimators': 50}"
-RandomizedSearchCV,0.842391304347826,0.8476190476190476,0.8725490196078431,0.8599033816425121,"{'max_depth': 10, 'max_features': 'log2', 'n_estimators': 142}"
