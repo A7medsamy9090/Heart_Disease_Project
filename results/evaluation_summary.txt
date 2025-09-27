@@ -1,0 +1,18 @@
+=== Supervised Learning Models ===
+              Model  Accuracy  Precision   Recall       F1
+Logistic Regression  0.831522   0.838095 0.862745 0.850242
+      Decision Tree  0.788043   0.788991 0.843137 0.815166
+      Random Forest  0.831522   0.831776 0.872549 0.851675
+                SVM  0.744565   0.747748 0.813725 0.779343
+
+=== Unsupervised Learning (Clustering) ===
+ KMeans Purity  Agglomerative Purity
+      0.590217              0.590217
+
+=== Hyperparameter Tuning Results (Lightweight) ===
+            Method  Accuracy  Precision   Recall       F1                                                    Best Params
+      GridSearchCV  0.847826   0.824561 0.921569 0.870370                           {'max_depth': 5, 'n_estimators': 50}
+RandomizedSearchCV  0.842391   0.847619 0.872549 0.859903 {'max_depth': 10, 'max_features': 'log2', 'n_estimators': 142}
+✅ Best Method: GridSearchCV
+✅ Best Params: {'max_depth': 5, 'n_estimators': 50}
+
